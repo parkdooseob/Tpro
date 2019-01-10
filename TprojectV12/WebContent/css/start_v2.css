@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.container{
+	/* border: 1px solid red; */	
+	margin-top: 3%;
+	
+}
+
+div.jumbotron{
+	background-image: url("../img/office_640.jpg");
+	background-size: cover;
+}
+
+.media{
+/* 	border: 1px solid red; */
+	box-shadow: 2px 2px grey;
+}
+
+/* 카드 마우스오버 했을 때 */
+.container .card{	
+  cursor : pointer; 
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+  
+}
+.container .card:HOVER{
+	
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+
+.space{
+	height: 50px;
+}

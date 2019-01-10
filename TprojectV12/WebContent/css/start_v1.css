@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+.nav-top{
+	/* border: 1px solid red; */
+	position: relative;	
+	z-index: 1;
+}
+div.jumbotron{
+	background-image: url("../img/brick-wall-1280.jpg");
+	background-size: cover;
+	height: 765px;
+	position: relative;
+	top:-55px;
+}
+.container-fluid{
+	/* border: 1px solid red; */
+	padding: 10%;
+}
+.nav-mid{
+	 width: 70%;
+	
+}
+
+
+.box{
+	width: 80%;
+	margin-left: 10%;
+}
+.container{	
+/* 	border: 1px solid red;	
+ */}
+div.space{
+	height: 50px;
+}
+
+
+.card {
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+
+.card:hover {
+   -webkit-filter: brightness(70%);
+   filter: brightness(70%);
+   cursor: pointer;
+}
+
+
+/*  .modal {
+        text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+        .modal:before {
+                display: inline-block;
+                vertical-align: middle;
+                content: " ";
+                height: 100%;
+        }
+}
+ 
+.modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+}
+ */
+
+
+

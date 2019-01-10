@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.sticky-top{
+	
+   position: -webkit-sticty;
+   position: -moz-sticty;
+   position: -o-sticty;
+   position: -ms-sticty;
+   position: sticty;
+   z-index: -99999;
+   top : 10px;
+}
+
+.glyph-icon{
+	width:30px;
+	height:20px;
+	fill: red;
+}

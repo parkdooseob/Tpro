@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+
+
+div.jumbotron{
+	background-image: url("../img/chairs-1280-1.jpg");
+	background-size: cover;
+	height: 670px;
+
+}
+
+.box{	
+	width: 80%;
+	margin-left: 10%;
+}
+.space{
+	height: 60px;
+}
